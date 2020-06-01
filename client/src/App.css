@@ -1,0 +1,16 @@
+tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.table-striped tbody tr:nth-of-type(odd):hover {
+    background-color: rgba(0,0,0,.0185) !important;
+}
+table{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 20px;
+    /* border-start-start-radius: 20px; */
+}
+thead, thead tr, thead tr td{
+    border-radius: 20px;
+}
